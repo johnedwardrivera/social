@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Quintessential", cursive;
+  background-color: #32384f;
+}
+.btn {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 40px;
+  border-radius: 30px;
+  background: linear-gradient(to right, #8d68c5, #e34494) !important;
+  /* background: #fff; */
+  display: inline-block;
+  margin: 40px 0;
+  font-size: 15px;
+}
+.btn:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease-out;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-around;
+}
+.social-media {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.social-media h3 {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.grupo-2 {
+  padding: 15px 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.change-theme {
+  top: 1.5rem;
+  right: 0;
+  font-size: 1.25rem;
+  color: var(--title-color);
+  cursor: pointer;
+  transition: 0.3s;
+  color: #fff;
+}
+.wrapper ul li {
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  margin: 0 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 5px solid #d8e2dc;
+  float: left;
+  transition: all 0.5s ease;
+}
+.wrapper ul {
+  list-style: none;
+}
+.wrapper ul li .fa {
+  color: #d8e2dc;
+  margin-top: 20px;
+  transition: all 0.5s ease;
+}
+.wrapper ul li:hover.facebook {
+  border: 5px solid #3b5998;
+  box-shadow: 0 0 15px #3b5998;
+  transition: all 0.5 ease;
+}
+.wrapper ul li:hover .fa-facebook {
+  color: #3b5998;
+  text-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+.wrapper ul li:hover.instagram {
+  border: 5px solid #bc2a8d;
+  box-shadow: 0 0 15px #bc2abd;
+  transition: all 0.5s ease;
+}
+.wrapper ul li:hover .fa-instagram {
+  color: #bc2abb;
+  text-shadow: 0 0 15px #bc2abb;
+  transition: all 0.5s ease;
+}
+.wrapper ul li:hover.telegram {
+  border: 5px solid #1714e9;
+  box-shadow: 0 0 15px #1714e9;
+  transition: all 0.5s ease;
+}
+.wrapper ul li:hover .fa-telegram {
+  color: #1714e9;
+  text-shadow: 0 0 15px #1714e9;
+  transition: all 0.5s ease;
+}
