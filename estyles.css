@@ -104,8 +104,8 @@ body {
 @media screen and (min-width: 300px) {
   .btn-animado {
     display: inline-block;
-    padding: 5px 100px;
-    border-radius: 9px;
+    padding: 10px 100px;
+    border-radius: 50px;
     box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.15);
     background-color: #fff;
     border: 1px solid #2ca8b0;
