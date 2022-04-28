@@ -51,7 +51,8 @@ body {
   transition: 0.3s;
   color: #fff;
 }
-.wrapper ul li {
+
+.icono ul li {
   width: 75px;
   height: 75px;
   line-height: 75px;
@@ -59,45 +60,172 @@ body {
   text-align: center;
   cursor: pointer;
   border-radius: 50%;
-  border: 5px solid #d8e2dc;
   float: left;
   transition: all 0.5s ease;
 }
-.wrapper ul {
+.icono ul {
   list-style: none;
 }
-.wrapper ul li .fa {
+.icono ul li .fa {
   color: #d8e2dc;
   margin-top: 20px;
   transition: all 0.5s ease;
 }
-.wrapper ul li:hover.facebook {
+.icono ul li:hover.facebook {
   border: 5px solid #3b5998;
   box-shadow: 0 0 15px #3b5998;
   transition: all 0.5 ease;
 }
-.wrapper ul li:hover .fa-facebook {
+.icono ul li:hover .fa-facebook {
   color: #3b5998;
   text-shadow: 0 0 15px #3b5998;
   transition: all 0.5s ease;
 }
-.wrapper ul li:hover.instagram {
+.icono ul li:hover.instagram {
   border: 5px solid #bc2a8d;
   box-shadow: 0 0 15px #bc2abd;
   transition: all 0.5s ease;
 }
-.wrapper ul li:hover .fa-instagram {
+.icono ul li:hover .fa-instagram {
   color: #bc2abb;
   text-shadow: 0 0 15px #bc2abb;
   transition: all 0.5s ease;
 }
-.wrapper ul li:hover.telegram {
+.icono ul li:hover.twitter {
   border: 5px solid #1714e9;
   box-shadow: 0 0 15px #1714e9;
   transition: all 0.5s ease;
 }
-.wrapper ul li:hover .fa-telegram {
+.icono ul li:hover .fa-twitter {
   color: #1714e9;
   text-shadow: 0 0 15px #1714e9;
   transition: all 0.5s ease;
+}
+@media screen and (min-width: 300px) {
+  .btn-animado {
+    display: inline-block;
+    padding: 5px 100px;
+    border-radius: 9px;
+    box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    border: 1px solid #2ca8b0;
+    color: #2ca8b0;
+    cursor: pointer;
+    transition: all ease-in 150ms;
+    overflow: hidden;
+  }
+}
+
+.btn-animado i {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 1rem;
+  font-size: 1.7rem;
+  opacity: 1;
+}
+.btn-animado:hover {
+  background-color: #2ca8b0;
+  color: #fff;
+}
+.btn-animado:active {
+  background-color: #22848a;
+}
+
+.color-facebook {
+  border: 1px solid #3b69ff;
+  color: #3b69ff;
+}
+.color-facebook:hover {
+  background-color: #3b69ff;
+  color: #fff;
+}
+.color-facebook:active {
+  background-color: #3155c9;
+}
+.color-instagram {
+  border: 1px solid #a03bff;
+  color: #3bc1ff;
+}
+.color-instagram .tex-icono {
+  color: #a03bff;
+}
+.color-instagram:hover {
+  background: linear-gradient(#a03bff, #3bc1ff);
+  color: #fff;
+}
+.color-instagram:active {
+  background: linear-gradient(#7d2fc7, #2a82aa);
+}
+.color-instagram:hover .tex-icono {
+  color: #fff;
+}
+
+.btn-animado.animacion-uno:hover i {
+  animation: anim-uno 350ms ease-in normal both;
+  transform: translate(0);
+}
+@keyframes anim-uno {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  70% {
+    transform: translateY(0.5rem);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.btn-animado.animacion-dos:hover i {
+  animation: anim-dos 350ms ease-in normal both;
+  transform: translate(0);
+}
+@keyframes anim-dos {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  70% {
+    transform: translateY(-0.5rem);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.btn-animado.animacion-tres:hover i {
+  animation: anim-tres 350ms ease-in normal both;
+  transform: translate(0);
+}
+@keyframes anim-tres {
+  from {
+    transform: translateX(-200%);
+    opacity: 0;
+  }
+  70% {
+    transform: translateX(1rem);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.btn-animado.animacion-cuatro:hover i {
+  animation: anim-cuatro 250ms ease-in normal both;
+  transform: scale(0) rotate(0deg);
+}
+@keyframes anim-cuatro {
+  from {
+    transform: scale(0) rotate(0deg) translateX(0);
+  }
+  to {
+    transform: scale(2.75) rotate(-15deg) translateX(-0.25rem);
+  }
 }
