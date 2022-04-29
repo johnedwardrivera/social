@@ -173,15 +173,15 @@ body {
   background-color: #080808;
 }
 .color-discord {
-  border: 1px solid #0ae8f0;
-  color: #0ae8f0;
+  border: 1px solid #f00d19;
+  color: #f00d19;
 }
 .color-discord:hover {
-  background-color: #0ae8f0;
+  background-color: #f00d19;
   color: #fff;
 }
 .color-discord:active {
-  background-color: #0ae8f0;
+  background-color: #f00d19;
 }
 
 .color-facebook {
@@ -214,7 +214,7 @@ body {
 }
 /* fotografia */
 .color-camera {
-  border: 1px solid #a03bff;
+  border: 1px solid #e60725;
   color: #080808;
 }
 .color-camera .tex-icono {
