@@ -34,7 +34,6 @@ body {
   padding: 10px 40px;
   border-radius: 30px;
   background: linear-gradient(to right, #8d68c5, #e34494) !important;
-  /* background: #fff; */
   display: inline-block;
   margin: 40px 0;
   font-size: 15px;
@@ -88,45 +87,55 @@ body {
 .icono ul {
   list-style: none;
 }
-.icono ul li .fa {
-  color: #d8e2dc;
+.icono ul li .ri-windows-fill {
+  color: #020202;
   margin-top: 20px;
   transition: all 0.5s ease;
 }
-.icono ul li:hover.facebook {
-  border: 5px solid #3b5998;
-  box-shadow: 0 0 15px #3b5998;
+.icono ul li .ri-app-store-line {
+  color: #020202;
+  margin-top: 20px;
+  transition: all 0.5s ease;
+}
+.icono ul li .ri-google-play-line {
+  color: #020202;
+  margin-top: 20px;
+  transition: all 0.5s ease;
+}
+.icono ul li:hover.ri-windows-fill {
+  border: 5px solid #020202;
+  box-shadow: 0 0 15px #020202;
   transition: all 0.5 ease;
 }
-.icono ul li:hover .fa-facebook {
-  color: #3b5998;
-  text-shadow: 0 0 15px #3b5998;
+.icono ul li:hover .ri-windows-fill {
+  color: #020202;
+  text-shadow: 0 0 15px #020202;
   transition: all 0.5s ease;
 }
-.icono ul li:hover.instagram {
-  border: 5px solid #bc2a8d;
-  box-shadow: 0 0 15px #bc2abd;
+.icono ul li:hover.ri-app-store-line {
+  border: 5px solid #020202;
+  box-shadow: 0 0 15px #020202;
   transition: all 0.5s ease;
 }
-.icono ul li:hover .fa-instagram {
-  color: #bc2abb;
-  text-shadow: 0 0 15px #bc2abb;
+.icono ul li:hover .ri-app-store-line {
+  color: #020202;
+  text-shadow: 0 0 15px #020202;
   transition: all 0.5s ease;
 }
-.icono ul li:hover.twitter {
-  border: 5px solid #1714e9;
-  box-shadow: 0 0 15px #1714e9;
+.icono ul li:hover.ri-google-play-line {
+  border: 5px solid #020202;
+  box-shadow: 0 0 15px #020202;
   transition: all 0.5s ease;
 }
-.icono ul li:hover .fa-twitter {
-  color: #1714e9;
-  text-shadow: 0 0 15px #1714e9;
+.icono ul li:hover .ri-google-play-line {
+  color: #020202;
+  text-shadow: 0 0 15px #020202;
   transition: all 0.5s ease;
 }
 @media screen and (min-width: 300px) {
   .btn-animado {
     display: inline-block;
-    padding: 10px 100px;
+    padding: 10px 130px;
     border-radius: 50px;
     box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.15);
     background-color: #fff;
@@ -151,6 +160,28 @@ body {
 }
 .btn-animado:active {
   background-color: #22848a;
+}
+.color-github {
+  border: 1px solid #0c0c0c;
+  color: #0f0f0f;
+}
+.color-github:hover {
+  background-color: #111111;
+  color: #fff;
+}
+.color-github:active {
+  background-color: #080808;
+}
+.color-discord {
+  border: 1px solid #0ae8f0;
+  color: #0ae8f0;
+}
+.color-discord:hover {
+  background-color: #0ae8f0;
+  color: #fff;
+}
+.color-discord:active {
+  background-color: #0ae8f0;
 }
 
 .color-facebook {
@@ -179,6 +210,24 @@ body {
   background: linear-gradient(#7d2fc7, #2a82aa);
 }
 .color-instagram:hover .tex-icono {
+  color: #fff;
+}
+/* fotografia */
+.color-camera {
+  border: 1px solid #a03bff;
+  color: #080808;
+}
+.color-camera .tex-icono {
+  color: #080808;
+}
+.color-camera:hover {
+  background: linear-gradient(#e60725, #e40bc0);
+  color: #fff;
+}
+.color-camera:active {
+  background: linear-gradient(#e60725, #e40bc0);
+}
+.color-camera:hover .tex-icono {
   color: #fff;
 }
 
